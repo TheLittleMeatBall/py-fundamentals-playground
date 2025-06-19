@@ -24,10 +24,8 @@ def get_longest_word(sentence):
     words = sentence.split()
     longest_word = ''
 
-    for word in words:
-        for char in word:
-            # remove any that aren't alphabet
-        if(len(word) > len(longest_word)):
+    # remove any that aren't alphabet
+    if(len(word) > len(longest_word)):
             longest_word = word
     
     return longest_word
