@@ -13,7 +13,6 @@
 def repeater(func, call_count, arg_to_pass):
     for _ in range(call_count):
         func(arg_to_pass)
-    # TODO
     return None
 
 # repeater(send_data_to_warehouse, 10, warehouse_data)
